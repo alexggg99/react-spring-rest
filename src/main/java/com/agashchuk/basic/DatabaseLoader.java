@@ -19,5 +19,13 @@ public class DatabaseLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         repository.save(new Employee("Alex", "Smith", "runner"));
+        repository.save(new Employee("Fill", "Koen", "shooter"));
+        repository.save(new Employee("Matew", "Nav", "grabber"));
+        repository.save(new Employee("Greg", "Pops", "minner"));
+        repository.save(new Employee("Alan", "File", "sniper"));
+        repository.save(new Employee("Matew", "Nabm", "runner"));
+        repository.save(new Employee("Alexandr", "Macconephy", "solder"));
+        repository.save(new Employee("Bill", "Mannes", "cook"));
+        repository.save(new Employee("Grem", "Fine", "negotiator"));
     }
 }
