@@ -1,10 +1,10 @@
 {
-  "name": "react-spring-rest",
+  "name": "spring-data-rest-and-reactjs",
   "version": "0.1.0",
-  "description": "ReactJS + Spring Data REST",
+  "description": "Demo of ReactJS + Spring Data REST",
   "repository": {
     "type": "git",
-    "url": "react"
+    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
   },
   "keywords": [
     "rest",
@@ -23,6 +23,8 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "rest": "^1.3.1",
+    "sockjs-client": "^1.0.3",
+    "stompjs": "^2.3.3",
     "webpack": "^1.12.2"
   },
   "scripts": {
