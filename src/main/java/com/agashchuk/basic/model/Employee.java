@@ -1,10 +1,12 @@
 package com.agashchuk.basic.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Version;
 
 @Data
 @Entity
@@ -13,6 +15,8 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String description;
+
+    private @Version @JsonIgnore Long version;
 
     private Employee () {}
 
